@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Local Weather App</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="daniel jackowiak" />
+        <meta name="keywords" content="front-end, web design, www, pages, weather app" />
+        <meta name="description" content="front-end assignments of jm" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="css/fontello.css" rel="stylesheet" type="text/css" />
+        <link href="css/animation.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Jaldi|Roboto:300,400" rel="stylesheet">        
+    </head>
+    <body>
+        <main>            
+            <div class="container">
+                <div class="weather-data">
+                    <div class="main-data">
+                        <div class="temp-data-description">It's <span class="temp-id" id="temp-id"><i class="icon-spin2 animate-spin">
+                            </i></span><span class="togglers"><span class="main-temp">&deg;C</span><span class="second-temp">&deg;F</span></span> in here.</div>
+                    </div>
+                    
+                    <div class="other-data">
+                        <div class="location">
+                            <div class="location-data-image"><i class="icon-location"></i></div>
+                            <div class="location-data-description" id="location-data-description">Poznan, PL</div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        
+                        <div class="cloud">
+                            <div class="cloud-data-image"><i class="icon-cloud"></i></div>
+                            <div class="cloud-data-description" id="cloud-data-description">clear sky</div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        
+                        <div class="wind">
+                            <div class="wind-data-image"><i class="icon-wind"></i></div>
+                            <div class="wind-data-description"><span id="current-wind">14.77</span> km/h</div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>                    
+                </div>
+            </div>            
+        </main>
+        
+    <script src="script.js"></script>    
+    </body>
+</html>
